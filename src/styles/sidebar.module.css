@@ -1,0 +1,17 @@
+.sidebar_container{
+    box-sizing: border-box;
+    padding-top: 12% ;
+    width: 3%;
+    height: auto;
+    background-color: #203765;
+    top: 2px;
+}
+.sidebar_container>img{
+    width: 80%;
+    height: 20px;
+    padding: 4px;
+    margin-bottom: 20%;
+}
+.sidebar_container>img:last-child{
+    margin-top: 400% ;
+}

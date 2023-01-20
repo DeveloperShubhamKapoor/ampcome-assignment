@@ -1,0 +1,171 @@
+*{
+    font-family: "Inter",sans-serif;
+}
+.dashboard_container{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+}
+.dashboard_right_container{
+    box-sizing: border-box;
+    width: 96%;
+    height: auto;
+}
+.user_info_box{
+    box-sizing: border-box;
+    border: 1px solid #203765;
+    height: 150px;
+    background-color: #203765;
+    text-align: left;
+}
+.set_welcome_banner{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    font-weight: 300;
+}
+.set_unit{
+    color: white;
+    font-size: 14px;
+    margin-left: 25px;
+    line-height: 1px;
+    font-weight: 300;
+    margin-top: -5px;
+}
+.user_other_details_box{
+    width: 100%;
+    display: flex;
+    height:auto;
+}
+.user_other_details_sub_box{
+    width: 65%;
+    height: auto;
+}
+.user_earning_box{
+    width:62%;
+    height: 100px;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+    top: 17%;
+    padding: 4px;
+    margin-left: 2%;
+    background-color: white;
+    z-index: 1;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.user_earning_box_sub_div_1{
+    display:flex;
+    border:"1px solid black";
+    width:"40%";
+    padding-left: 5px;
+}
+.user_earning_box_sub_div_2{
+    width: 60%;
+    display: flex;
+    gap: 15px;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-top: 2%;
+}
+.user_earning_box_sub_div_2>div{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+}
+.user_earning_box_sub_div_2>div>p{
+    position: absolute;
+    top: -60%;
+    margin-left: 30px;
+    background-color: white;
+    padding: 2px;
+}
+.user_earning_box_sub_div_2>div>select{
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #dfe8f9;
+    color: #dfe8f9;
+}
+.visits_appointments_box{
+    width: 97%;
+    margin-left: 3%;
+    height: 170px;
+    position: relative;
+    background-color: #f0f6fe;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.visits_appointments_box>div{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0%;
+    color: #29375F;
+}
+.appointment_schedule_containter{
+    display: flex;
+    gap: 10px;
+    width: 97%;
+    margin-left: 3%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.appointment_box{
+    width: 50%;
+}
+.schedule_box{
+    width: 50%;
+}
+.graph_box{
+    width: 98%;
+    margin-left: 2%;
+    height: auto;
+}
+.user_activity_box{
+    width: 28%;
+    height:auto;
+    border: 1px solid #bfd2f3;
+    position: absolute;
+    top: 8%;
+    right: 0%;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px 5px 3px 12px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: #7c849d;
+}
+.user_activity_box>img{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.user_activity_box>div{
+    width: 90%;
+    font-size: 14px;
+    height: auto;
+}
+.user_activity_box>div>div{
+    display: flex;
+    width: 100%;
+}
+.user_activity_box>div>div>span{
+    padding: 2px ;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+.user_activity_box>div>p{
+    margin-left: 48px;
+    margin-top: -3px;
+    top: 0;
+}

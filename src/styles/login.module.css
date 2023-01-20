@@ -1,0 +1,65 @@
+*{
+    font-family: "Monsterrat",sans-serif;
+}
+.login_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.welcome_card_box{
+    width: 50%;
+    background-color:#f0f4fc;
+}
+.welcome_card_box>div:first-child{
+    color:  #29375F;
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 20%;
+    text-align: center;
+}
+.welcome_card_box>div:nth-child(2){
+    color:  #29375F;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    text-align: center;
+    line-height: 10px;
+}
+.login_info_container{
+    width: 50%;
+}
+.login_form_container{
+   margin: auto;
+   padding: 10px;
+    margin-top: 30%;
+}
+.login_form_container>p{
+    color: #29375F;
+    font-weight: 600;
+    font-size: 18px;
+}
+.login_form_content_box>input{
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border: 1px solid rgba(192, 206, 255, 0.7);
+}
+.login_form_content_box>select{
+    width: 180px;
+    padding: 8px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    color: #868ea5;
+    border: 1px solid rgba(192, 206, 255, 0.7);
+}
+.login_form_content_box>button{
+    width: 180px;
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #fc6964;
+    color: white;
+    border: none;
+}
+
